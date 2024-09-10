@@ -47,19 +47,18 @@ header{
     background-color: #FFFFFF;
     color:#173A56;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 8px;
     margin-bottom: 17px;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .sign-up-btn{
     background-color:#FF9900;
     color:rgb(227, 223, 223);
     padding: 11px 25px;
-    border: 1px solid #91a6ab;
+    border: 1px solid #4c7681;
     border-radius: 10px;
     color:#173A56;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 8px;
     margin-bottom: 17px;
 }
 
