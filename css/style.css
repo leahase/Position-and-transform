@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 h1 {
-    font-size: 50px;
+    font-size: 80px;
     color: #2F281E;
     
 }
+p {
+    font-size: 30px;
+    color: #544837;
+} */
 ;/* Header */
 header{
     display: flex;
@@ -16,7 +20,7 @@ header{
     height: 78px;
     padding-top: 20px;
     background-color: #FFFFFF;
-    position: static;
+    position: fixed;
     top: 0;
     left: 0;}
     /* Logo */
@@ -26,8 +30,17 @@ header{
 .logo{ 
     width: 142px;
     height: 82px;
-    
 }
+/* Logo */
+.logo-location{
+position: absolute;
+width: 185.34px;
+height: 31.97px;
+left: 143.92px;
+top: 22px;}
+
+
+
 .logo-container{
     margin-left: 144px;
 }
@@ -36,14 +49,14 @@ header{
     display: flex;
     justify-content: center;
     margin-left: auto;
-    border-style:#173A56;
+    height: 78px;
+    width: 1400px;
 }
 
 .link-container {
     display: flex;
     list-style: none;
-    border-style:#173A56;
-    color:#173A56;
+    
 }
 
 .nav-li{
@@ -51,7 +64,6 @@ header{
 
 }
 .nav-link{
-    display: inline-block;
     text-decoration: none;
     font-size: 14px;
     line-height: 28px;
@@ -65,79 +77,144 @@ header{
     background-color: #FFFFFF;
     color:#173A56;
     margin-left: 40px;
-    margin-top: 8px;
-    margin-bottom: 17px;
+    height: 50px;
+  
 }
-.sign-up-btn{
+.sign-up-btn, .header-section-btn{
     background-color:#FF9900;
     color:rgb(227, 223, 223);
     padding: 11px 25px;
     border: 1px solid #4c7681;
     border-radius: 10px;
     color:#173A56;
-    margin-left: 40px;
-    margin-top: 8px;
-    margin-bottom: 17px;
+    height: 50px;
+    
+   
 }
 /* 02Header */
 /* Text whole left side*/
 .header-container {
-    display:flex;
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 100vh; /*494.83px*/
+padding: 10px 50px;
+margin-top: 50px;
 }
-.header-selection {
-    max-width: 518px;
-    width: 100%;
-    height: 331px;
-    margin:113px 0 0 145px;
+.header-section {   
+    max-width:50%;
+/* display: flex;
+/* flex-direction: column; /*to stack text and buttons*/
+/* justify-content: center;
+max-width: 450px;
+gap: 20px;
+padding-left: 0px;
+} */ */ */
+/* .oval {
+    margin-left: 50px;
+    justify-content: flex-start;
+    width: 604px;
+    height: 495;
+    index-z: 1; */
+
+}
+.happy-people{
+    position: absolute;
+    height: auto;
+    width: 100%%;
+    align-self:flex-end;
+    object-fit: cover;
+    right: 50px;
+    
+    
+
+}
+
+    /* Button */
+width: 366px;
+height: 53px;
+left: 145px;
+top: 489px;
+
+
 }
 /* the design thinking */
 .header-section-heading{
-position: absolute;
-width: 452.54px;
-height: 211.92px;
-left: 145.22px;
-top: 217.76px;
+width: 451.7px;
+height: 100.95px;
 border-style: black;
+gap: 20px;
+padding-top: 30px;
 }
 
 /* Tools, tutorials, de */
 .header-section-paragraph {
-position: absolute;
 width: 436.48px;
 height: 74.38px;
-left: 145.22px;
-top: 355.3px;
+font-family: Arial, Helvetica, sans-serif;
+gap: 20px;
+padding-top: 20px;
+align-content: center;
 }
+/* .header-section-triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 17px solid #FF9900;
+    transform: rotate(90deg);
+    border-radius: 1.13px;
+    margin-right: 8.5px;
+    position:absolute;
+    right:130px;
+    top: 500px;
+} */
 .header-section-btn {
-    background-color:#FF9900;
-    color:rgb(227, 223, 223);
-    padding: 11px 25px;
-    border: 1px solid #4c7681;
-    border-radius: 10px;
-    color:#173A56;
-    margin-left: 40px;
-    margin-top: 80px;
-    margin-bottom: 17px;
-    height: 30px;
-    width: 30px;
+    background-color: #FF9900;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
 }
-.header-section-triangle {
+    
+.btn {
+    display: flex;
+    margin-top:100px;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
 
-position: absolute;
-left: 10.19%;
-right: 78.43%;
-top: 10.17%;
-bottom: 20.67%;
-
-background: #FF9900;
-transform: rotate(90deg);
-border-radius: 50%;
-Height: 18.91px;
-width: 15.91px;
 
 }
+    
+}
+ .header-section-video {
+    position: absolute;
+    text-decoration: none;
+    font-size: 18px;
+    color: #FF9900;
+   
+
+} */ */
+
+/* .header-section-btn {
+background-color:#FF9900;
+color:rgb(227, 223, 223);
+padding: 11px 25px;
+border: 1px solid #4c7681;
+border-radius: 10px;
+color:#173A56;
+margin-left: 40px;
+margin-top: 80px;
+margin-bottom: 17px;
+height: 30px;
+width: 30px;
 
 
-
-
-
+.location{
+    border: #c37272;
+    border-width: 3px;
+    border-style: solid;
+}
