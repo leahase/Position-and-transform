@@ -28,16 +28,6 @@ header{
     height: 82px;
     
 }
-/* Productly */
-.productly{
-position: absolute;
-left: 13.3%;
-right: 76.48%;
-top: 32.05%;
-bottom: 30.8%;
-
-background: #173A56;
-}
 .logo-container{
     margin-left: 144px;
 }
@@ -91,7 +81,7 @@ background: #173A56;
 }
 /* 02Header */
 /* Text whole left side*/
-.container-header {
+.header-container {
     display:flex;
 }
 .header-selection {
@@ -131,8 +121,20 @@ top: 355.3px;
     height: 30px;
     width: 30px;
 }
-.header-section-play {
-    
+.header-section-triangle {
+
+position: absolute;
+left: 10.19%;
+right: 78.43%;
+top: 10.17%;
+bottom: 20.67%;
+
+background: #FF9900;
+transform: rotate(90deg);
+border-radius: 50%;
+Height: 18.91px;
+width: 15.91px;
+
 }
 
 
