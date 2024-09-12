@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* 
 *{   margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.outer-container {
+    display: flex;
+    width: 1400px;
+    height: 3848px;
+    justify-content: space-between;
+    top:
+    left:
+
+    
 }
 h1 {
     font-size: 80px;
@@ -12,40 +25,137 @@ h1 {
     font-size: 30px;
     color: #544837;
 } */
-;/* Header */
-header{
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 78px;
+    top: 20px;
+    left: 0;
+    position: absolute;
+}
+.nav-box{
+    width: 350px;
+    height: 28px;
+}
+
+.nav-con {
+    display: flex;
+    list-style: none;
+    color:#2F281E;
+    border-style: 1px solid black;
+    
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+    width: 1126px;
+    height: 496px;
+    background-color: #FFFFFF;
+    top: 128px;
+    left: 145px;
+}
+.head-text {
+    width: 538px;
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 83px;
+}
+.head-btn {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+}
+.head-image {
+    width: 605px;
+    height: 496px;
+}
+.design-text {
+    width: 518px;
+    height: 108px;
+    margin-top: -6px;
+}
+.location{
+    border: #c37272;
+    border-width: 3px;
+    border-style: solid;
+}
+.font-headline {
+    font-family: "Poppins" sans-serif;
+    font-style: solid;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+}
+
+.margin {
+    margin-top: -45px;
+
+}
+.margin2 {
+    margin-top: -10px;
+}
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+.box-container{  /* det som gäller för alla boxer */
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-    height: 78px;
-    padding-top: 20px;
-    background-color: #FFFFFF;
-    position: fixed;
-    top: 0;
-    left: 0;}
+    height: 200px;
+    box-sizing: border-box;
+    position:relative;
+    top: 700px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 150px;
+    border-color: #c4e5ed;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+li {
+    list-style: none;
+}
+.rubrik-box {
+    
+}
+
     /* Logo */
-.logo-container {
+/* .logo-container {
     margin-left: 144px;
 }
 .logo{ 
     width: 142px;
     height: 82px;
-}
+} */
 /* Logo */
-.logo-location{
+/* .logo-location{
 position: absolute;
 width: 185.34px;
 height: 31.97px;
 left: 143.92px;
-top: 22px;}
+top: 22px;} */
 
 
-
+/* 
 .logo-container{
-    margin-left: 144px;
+    margin-left: 144px; */
 }
 /* 01Navigation */
-.nav-container {
+/* .nav-container {
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -69,11 +179,11 @@ top: 22px;}
 .nav-link{
     text-decoration: none;
     font-size: 14px;
-    line-height: 28px;
+    line-height: 28px; */
 }
 
     /* Sign in - sign up Buttons */
-.sign-in-btn{
+/* .sign-in-btn{
     padding: 11px 25px;
     border: 1px solid #91a6ab;
     border-radius: 10px;
@@ -94,28 +204,28 @@ top: 22px;}
     color:#173A56;
     height: 50px;
     margin-top: 10px;
-    
+     */
    
 }
 /* 02Header */
 /* Text whole left side*/
-.header-container {
+/* .header-container {
 display: flex;
 justify-content: space-between;
 width: 100%;
 height: 500px; /*494.83px*/
-padding: 10px 50px;
+/* padding: 10px 50px;
 margin-top: 50px;
 }
 .header-section {   
-    max-width:50%;
-/* display: flex;
-/* flex-direction: column; /*to stack text and buttons*/
-/* justify-content: center;
+max-width:150px;
+display: flex;
+flex-direction: column; 
+justify-content: space-between;
 max-width: 450px;
 gap: 20px;
 padding-left: 0px;
-} */ */ */
+} */ 
 /* .oval {
     margin-left: 50px;
     justify-content: flex-start;
@@ -123,38 +233,37 @@ padding-left: 0px;
     height: 495;
     index-z: 1; */
 
-}
-.happy-people{
+
+/* .happy-people{
     position: relative;
     height: auto;
     width: 50%;
     align-self:flex-end;
-    margin-right: 50px;
-    
-    
-
-
+    margin-right: 50px;    
+} */
 
     /* Button */
 
 
 /* the design thinking */
-.header-section-heading{
+
+/* .header-section-heading {
 width: 451.7px;
-height: 100.95px;
+height: 500.95px;
 border-style: black;
 gap: 40px;
 padding-top: 30px;
-}
+font-family: "Poppins" sans-serif;
+} */
 
 /* Tools, tutorials, de */
-.header-section-paragraph {
+/* .header-section-paragraph {
 width: 436.48px;
 height: 74.38px;
 font-family: Arial, Helvetica, sans-serif;
 gap: 20px;
 padding-top: 20px;
-align-content: center;
+align-content: center; */
 }
 /* .header-section-triangle {
     width: 0;
@@ -169,7 +278,7 @@ align-content: center;
     right:130px;
     top: 500px;
 } */
-.header-section-btn {
+/* .header-section-btn {
     background-color: #FF9900;
     text-colo
     color: white;
@@ -177,7 +286,7 @@ align-content: center;
     border: none;
     border-radius: 5px;
     height: 50px;
-}
+} */
     
 /* .btn {
     display: flex;
@@ -188,37 +297,30 @@ align-content: center;
     gap: 20px;
      */
 }
- .header-section-video {
+ /* .header-section-video {
     position: absolute;
     text-decoration: none;
     font-size: 18px;
     color: #FF9900;
-} 
-
-
-.location{
-    border: #c37272;
-    border-width: 3px;
-    border-style: solid;
-}
+}  */
 
 /*feature*/
 
-
+/* 
 .box-container{  /* det som gäller för alla boxer */
-            display: flex;
+            /* display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
             width: 100%;
             height: 200px;
             padding: 20px;
             box-sizing: border-box;
-            margin-top: 100px;
-}
-h3{
+            margin-top: 100px; */
+
+/* h3{
     font-size: 15px;
 }
-.box1, .box2, .box3, .box4{
+.box1 {
     width: 180px;
     height: 150px;
     border-color: #c4e5ed;
@@ -233,4 +335,4 @@ h3{
     justify-content: center;
     font-size: 36px;
     gap: 10px;
-}
+} */
