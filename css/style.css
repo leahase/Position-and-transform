@@ -8,7 +8,7 @@ h1 {
     color: #2F281E;
     
 }
-p {
+ {
     font-size: 30px;
     color: #544837;
 } */
@@ -103,7 +103,7 @@ top: 22px;}
 display: flex;
 justify-content: space-between;
 width: 100%;
-height: 100vh; /*494.83px*/
+height: 500px; /*494.83px*/
 padding: 10px 50px;
 margin-top: 50px;
 }
@@ -125,12 +125,11 @@ padding-left: 0px;
 
 }
 .happy-people{
-    position: absolute;
+    position: relative;
     height: auto;
     width: 50%;
     align-self:flex-end;
-    object-fit: cover;
-    right: 50px;
+    margin-right: 50px;
     
     
 
@@ -194,26 +193,44 @@ align-content: center;
     text-decoration: none;
     font-size: 18px;
     color: #FF9900;
-   
-
-} */ */
-
-/* .header-section-btn {
-background-color:#FF9900;
-color:rgb(227, 223, 223);
-padding: 11px 25px;
-border: 1px solid #4c7681;
-border-radius: 10px;
-color:#173A56;
-margin-left: 40px;
-margin-top: 80px;
-margin-bottom: 17px;
-height: 30px;
-width: 30px; */
+} 
 
 
 .location{
     border: #c37272;
     border-width: 3px;
     border-style: solid;
+}
+
+/*feature*/
+
+
+.box-container{  /* det som gäller för alla boxer */
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 200px;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-top: 100px;
+}
+h3{
+    font-size: 15px;
+}
+.box1, .box2, .box3, .box4{
+    width: 180px;
+    height: 150px;
+    border-color: #c4e5ed;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.heading-box {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    font-size: 36px;
+    gap: 10px;
 }
