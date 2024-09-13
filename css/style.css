@@ -8,13 +8,14 @@
 .nav-container {
     display: flex;
     justify-content: space-between;
-    width: 1400px;
+    width: 100%;
     height: 78px;
     padding: 20px;
     position: relative;
     align-items: center;
 }
 .nav-box{
+    flex: 1;
     width: 350px;
     height: 28px;
 }
@@ -31,10 +32,6 @@
     font-size: 14px;
     color:#173A56;
 }
-/* .flex {
-    display: flex;
-    justify-content: space-between;
-} */
 /*buttons*/
 .sign-in-btn, .sign-up-btn {
     padding: 11px 25px;
@@ -54,23 +51,20 @@
 }
 
 /*head*/
-.head{
+.head {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-items: space-evenly;
     align-content: center;
-    /* position: absolute; */
     width: 1126px;
     height: 496px;
     background-color: #FFFFFF;
+    position:absolute;
     top: 128px;
     left: 145px;
 }
 .head-text {
     width: 538px;
-    height: 331px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 83px;
 }
 .head-btn {
     display: flex;
@@ -83,14 +77,19 @@
     border: none;
     color: white;
 }
-.head-image img {
+.head-image {
     width: 605px;
     height: 496px;
+   justify-content: space-evenly;
+} 
+.design-text1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color:#1f1d1d;
 }
-.design-text {
-    width: 518px;
-    height: 108px;
-    margin-top: -6px;
+.design-text2 {
+    margin-top: 20px;
 }
 .location{
     border: #c37272;
@@ -105,34 +104,21 @@
     line-height: 54px;
 }
 
-.margin {
-    margin-top: -45px;
-
-}
-.margin2 {
-    margin-top: -10px;
-}
-.flex-space-around{
-    display: flex;
-    justify-content: space-around;
+.margin-left{
+    margin-left: 20px;
 }
 
-/*Boxar*/
 .box-container{  /* det som gäller för alla boxer */
     display: flex;
     justify-content: space-evenly;
-    flex-wrap:wrap;
-    align-items: center;
+    flex-wrap: wrap;
     width: 100%;
-    height: 200px;
-    box-sizing: border-box;
-    position:relative;
-    top: 750px;
+    margin-top: 900px;
+    padding: 20px;
+
 }
 .box1{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    text-align: center;
     width: 180px;
     height: 150px;
     border: 2px solid black;
@@ -141,8 +127,9 @@
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
 }
-.box img {
-    font-weight: 600;
+.box1 img {
+    width: 40px;
+    height: 40px;
     margin-bottom: 10px;
 }
 li {
@@ -154,17 +141,6 @@ li {
     font-size: 24px;
     font-weight: bold;
     margin: 40px 0;
-    display: flex;
-    justify-content: space-around;
-    width: 538px;
-    height: 108px;
-    position: relative;
-    top: -190px;
-    left: 600px;
-    font-size: 36px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
 }
 
 .rubrik-box {
@@ -173,150 +149,3 @@ li {
     font-weight: semi-bold;
 }
 
-
-
-/* 01Navigation */
-/* 
-
-.link-container {
-    display: flex;
-    list-style: none;
-    color:#2F281E;
-    border-style: 1px solid black;
-    
-}
-
-.nav-li{
-    padding:20px;
-
-}
-
-/* 02Header */
-/* Text whole left side*/
-/* .header-container {
-display: flex;
-justify-content: space-between;
-width: 100%;
-height: 500px; /*494.83px*/
-/* padding: 10px 50px;
-margin-top: 50px;
-}
-.header-section {   
-max-width:150px;
-display: flex;
-flex-direction: column; 
-justify-content: space-between;
-max-width: 450px;
-gap: 20px;
-padding-left: 0px;
-} */ 
-/* .oval {
-    margin-left: 50px;
-    justify-content: flex-start;
-    width: 604px;
-    height: 495;
-    index-z: 1; */
-
-
-/* .happy-people{
-    position: relative;
-    height: auto;
-    width: 50%;
-    align-self:flex-end;
-    margin-right: 50px;    
-} */
-
-    /* Button */
-
-
-/* the design thinking */
-
-/* .header-section-heading {
-width: 451.7px;
-height: 500.95px;
-border-style: black;
-gap: 40px;
-padding-top: 30px;
-font-family: "Poppins" sans-serif;
-} */
-
-/* Tools, tutorials, de */
-/* .header-section-paragraph {
-width: 436.48px;
-height: 74.38px;
-font-family: Arial, Helvetica, sans-serif;
-gap: 20px;
-padding-top: 20px;
-align-content: center; */
-}
-/* .header-section-triangle {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 17px solid #FF9900;
-    transform: rotate(90deg);
-    border-radius: 1.13px;
-    margin-right: 8.5px;
-    position:absolute;
-    right:130px;
-    top: 500px;
-} */
-/* .header-section-btn {
-    background-color: #FF9900;
-    text-colo
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    height: 50px;
-} */
-    
-/* .btn {
-    display: flex;
-    margin-top:100px;
-    align-items: center;
-    height: 120px;
-    flex-wrap: wrap;
-    gap: 20px;
-     */
-}
- /* .header-section-video {
-    position: absolute;
-    text-decoration: none;
-    font-size: 18px;
-    color: #FF9900;
-}  */
-
-/*feature*/
-
-/* 
-.box-container{  /* det som gäller för alla boxer */
-            /* display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            width: 100%;
-            height: 200px;
-            padding: 20px;
-            box-sizing: border-box;
-            margin-top: 100px; */
-
-/* h3{
-    font-size: 15px;
-}
-.box1 {
-    width: 180px;
-    height: 150px;
-    border-color: #c4e5ed;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-}
-.heading-box {
-    display: flex;
-    width: auto;
-    height: auto;
-    justify-content: center;
-    font-size: 36px;
-    gap: 10px;
-} */
