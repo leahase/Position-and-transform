@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*navigation*/
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -18,26 +18,47 @@
     width: 350px;
     height: 28px;
 }
-
-.nav-con {
-    display: flex;
+.nav-box ul {
+    display:flex;
     list-style: none;
-    color:#2F281E;
-    border-style: 1px solid black;   
+    justify-content: flex-end;
 }
 .nav-li{
    margin-right: 20px;
 }
-.flex {
+.nav-link{
+    text-decoration: none;
+    font-size: 14px;
+    color:#173A56;
+}
+/* .flex {
     display: flex;
     justify-content: space-between;
+} */
+/*buttons*/
+.sign-in-btn, .sign-up-btn {
+    padding: 11px 25px;
+    border: 1px solid #91a6ab;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color:#173A56;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.sign-up-btn{
+    background-color:#FF9900;
+    color:rgb(227, 223, 223);
+    padding: 11px 25px;
+    border: 1px solid #4c7681;
 }
 
+/*head*/
 .head{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    position: absolute;
+    /* position: absolute; */
     width: 1126px;
     height: 496px;
     background-color: #FFFFFF;
@@ -54,9 +75,15 @@
 .head-btn {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    margin-top: 20px;
 }
-.head-image {
+.head-btn button{
+    background-color:#FF9900;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+}
+.head-image img {
     width: 605px;
     height: 496px;
 }
@@ -89,9 +116,12 @@
     display: flex;
     justify-content: space-around;
 }
+
+/*Boxar*/
 .box-container{  /* det som gäller för alla boxer */
     display: flex;
     justify-content: space-evenly;
+    flex-wrap:wrap;
     align-items: center;
     width: 100%;
     height: 200px;
@@ -142,26 +172,7 @@ li {
     margin-bottom: 10px;
     font-weight: semi-bold;
 }
-.sign-in-btn, .sign-up-btn {
-    padding: 11px 25px;
-    border: 1px solid #91a6ab;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    color:#173A56;
-    margin-left: 20px;
-    height: 50px;
-    margin-top: 10px;
-}
-.header-section-btn{
-    background-color:#FF9900;
-    color:rgb(227, 223, 223);
-    padding: 11px 25px;
-    border: 1px solid #4c7681;
-    border-radius: 10px;
-    color:#173A56;
-    height: 50px;
-    margin-top: 10px;
-}
+
 
 
 /* 01Navigation */
@@ -179,10 +190,6 @@ li {
     padding:20px;
 
 }
-.nav-link{
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 28px; */
 
 /* 02Header */
 /* Text whole left side*/
