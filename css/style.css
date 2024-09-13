@@ -71,7 +71,7 @@
     align-items: center;
     margin-top: 20px;
 }
-.head-btn button{
+.head-btn{
     background-color:#FF9900;
     padding: 10px 25px;
     border: none;
@@ -113,16 +113,15 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 900px;
+    margin-top: 700px;
     padding: 20px;
 
 }
 .box1{
     text-align: center;
-    width: 180px;
-    height: 150px;
-    border: 2px solid black;
-    margin: 10px;
+    width: 240px;
+    flex-wrap: wrap;
+    height: 204px;
     padding: 10px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
@@ -132,6 +131,7 @@
     height: 40px;
     margin-bottom: 10px;
 }
+.box1
 li {
     list-style: none;
 }
@@ -144,7 +144,7 @@ li {
 }
 
 .rubrik-box {
-    font-size: 600;
+    font-size: 22px;
     margin-bottom: 10px;
     font-weight: semi-bold;
 }
