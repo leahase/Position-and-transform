@@ -212,7 +212,7 @@ li {
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*--------decistion-----*/
 .decision-container {
     display: flex;
     flex-wrap: wrap;
@@ -223,6 +223,7 @@ li {
     margin-top: 120px;
     margin-left: 145px;
     align-items: center;
+    margin-right: 135px;
 }
 .decision {
     color:#1f1d1d;
@@ -238,7 +239,7 @@ li {
     width: 521px;
     margin-right: 500px;
 }
-
+/*_-------markteters----*/
 .marketers-container {
     display: flex;
     flex-wrap: wrap;
@@ -247,7 +248,8 @@ li {
     height: 609px;
     background-color: #FFFFFF;
     margin-top: 120px;
-    margin-left: 145px;
+    margin-left: 143px;
+    margin-right: 147px;
     align-items: center;
 }
 .marketers {
