@@ -248,6 +248,13 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
+.color-brown {
+    color: #544837;
+} 
+.color-dark{
+    color: #2F281E;
+}
+
 /*--------decision-----*/
 .decision-container {
     display: flex;
@@ -256,7 +263,7 @@
     width: 1121px;
     height: 521px;
     background-color: #FFFFFF;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-left: 145px;
     align-items: center;
     margin-right: 135px;
@@ -327,6 +334,34 @@
 }
 .marketers-p-first {
     margin:0;
+}
+
+/*--------------Footer-------------*/
+.footer-container {
+    width: 1109px;
+    height: 308px;
+    position: absolute;
+}
+.logo-location-footer{
+    position: relative;
+    top: 50px;
+    left: 150px;
+    width: 185px;
+    height: 32px;
+}
+.container-left {
+    width: 118px;
+    height: 205px;
+    position: relative;
+    top: 50px;
+    left: 400px;
+}
+.container-right {
+    width: 131px;
+    height: 205px;
+    position: absolute;
+    top: 85px;
+    left: 550px;
 }
 
 
