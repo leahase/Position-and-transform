@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{  margin: 0;
+ *{  margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 /*navigation*/
 .nav-container {
     display: flex;
@@ -105,6 +105,7 @@
     line-height: 54px;
     color:#1f1d1d;
     margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
 }
 .design-text2 {
     margin-top: 20px;
@@ -149,24 +150,23 @@
     height: 40px;
     margin-bottom: 10px;
 }
-.box1
-li {
+.box1 li {
     list-style: none;
 }
 
 .heading-box {
+    margin-top: 0;
     text-align: center;
     font-size: 36px;
     flex-wrap:wrap;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 0px;
     height: 108px;
     width: 539px;
     justify-content: center;
     position: absolute;
     top: 500px;
-    left: 260px
-
+    left: 260px;
 }
 
 .rubrik-box {
@@ -179,37 +179,61 @@ li {
 /*effortless*/
 .effortless-container {
     display: flex;
-    justify-items: space-evenly;
-    width: 1126px;
-    height: 496px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1110px;
+    height: 575px;
     background-color: #FFFFFF;
-    margin-top: 120px;
+    margin-top: 60px;
+    margin-bottom: 0px;
     margin-left: 145px;
+    gap: 10px;
 }
-.effortless {
-    color:#1f1d1d;
-    height: auto;
-    width: auto;
-    flex-wrap: wrap;
+.effortless-inner {
+    display: flex;
+    flex-direction: column;
+    width: 486px;
+    height: 531px;
+    /* justify-content: space-between; */
+}
 
-}
 .effortless-image {
-    margin-left: 50px;
-    justify-content: space-evenly;
+    margin-left: 20px;
     height: 575px;
     width: 520px;
 }
+.effortless-p {
+    width: 486px;
+    min-height: 90px;
+    margin-top: 10px;
+    padding: 0;
+}
+.effortless-p-first {
 
+
+}
+.effortless-heading{
+    width: 385px;
+    height: 54px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------fonts--------*/
 .font16 {
     font-size: 16px;
 }
 .font36bold {
     font-size: 36px;
-    font-style: bold;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
 }
 .font16bold {
     font-size: 16px;
-    font-style: bold;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 /*--------decistion-----*/
@@ -230,9 +254,7 @@ li {
     height: 486px;
     width: 427px;
     flex-wrap: wrap;
-    margin-left: ;
-
-
+    text-align:start;
 }
 .decision-image {
     height: 535px;
@@ -258,9 +280,31 @@ li {
     width: 427px;
     flex-wrap: wrap;
     margin-left: ;
-
-
 }
 .marketers-image {
     height: 542px;
     width: 609px;}
+
+
+/*-----special ------*/
+/* .margin-top22{
+    margin-top: 22px;
+}
+.margin-top25{
+    margin-top: 25px;
+}
+.margin-top30 {
+    margin-top: 30px;
+}
+.margin-top3{
+    margin-top: 3px;
+}
+.margin-bottom3 {
+    margin-bottom: 3px;
+}
+.margin-bottom22 {
+    margin-bottom: 22px;
+}
+.margin-bottom30 {
+    margin-bottom: 30px;
+} */
