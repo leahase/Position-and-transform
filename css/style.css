@@ -54,10 +54,17 @@
 .sign-up-now-btn{
     background-color:#FF9900;
     color:rgb(227, 223, 223);
+    position: relative;
     padding: 11px 25px;
     border: 1px solid #4c7681;
-    margin-left: 650px;
+    margin-left: 1027px;
+    margin-right: 109px;
     border-radius: 10px;
+    width:175px;
+    height: 53px;
+    top: 10px;
+    right: 300px;
+    justify-content: center;
 }
 
 /*head*/
@@ -131,19 +138,22 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 100%;
-    margin-top: 700px;
+    width: auto;
+    height: 543px;
+    margin-top: 600px;
     padding: 20px;
 
 }
 .box1{
     text-align: center;
     width: 240px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     height: 204px;
     padding: 10px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    text-align:left
 }
 .box1 img {
     width: 40px;
@@ -165,8 +175,9 @@
     width: 539px;
     justify-content: center;
     position: absolute;
-    top: 500px;
-    left: 260px;
+    top: 700px;
+    left: 3
+    text-align: center;
 }
 
 .rubrik-box {
@@ -237,7 +248,7 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
-/*--------decistion-----*/
+/*--------decision-----*/
 .decision-container {
     display: flex;
     flex-wrap: wrap;
@@ -256,11 +267,25 @@
     width: 486px;
     height: 531px;
 }
+.decision-text {
+    width: 486px;
+    height: 427px;
+    position: relative;
+    bottom: 500px;
+    right: -600px;
+}
 .decision-image {
     height: 535px;
     width: 521px;
+    position: relative;
     margin-right: 500px;
+    top: 0;
 }
+.check {
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+
 /*_-------markteters----*/
 .marketers-container {
     display: flex;
@@ -306,7 +331,7 @@
 
 
 /*-----special ------*/
-/* .margin-top22{
+.margin-top22{
     margin-top: 22px;
 }
 .margin-top25{
