@@ -39,7 +39,6 @@
     text-decoration: none;
     font-size: 14px;
     color:#2F281E;
-    font-family: 'Poppins', sans-serif;
 }
 /*---------------buttons----------------------*/
 .sign-in-btn, .sign-up-btn {
@@ -150,7 +149,6 @@
     line-height: 54px;
     color:#1f1d1d;
     margin-top: 70px;
-    font-family: 'Poppins', sans-serif;
 }
 .design-text2 {
     margin-top: 20px;
@@ -162,7 +160,6 @@
     border-style: solid;
 } */
 .font-headline {
-    font-family: 'Poppins', sans-serif;
     font-style: solid;
     font-weight: 700;
     font-size: 44px;
@@ -190,7 +187,6 @@
     height: 204px;
     padding: 10px;
     border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
     margin-top: 150px;
     text-align:left
 }
@@ -268,18 +264,15 @@
 /*-----------fonts and spec--------*/
 .font16 {
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
 }
 .font36bold {
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
     
 }
 .font16bold {
     font-size: 16px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
 }
 .color-brown {
     color: #544837;
